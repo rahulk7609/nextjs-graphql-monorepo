@@ -1,0 +1,38 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1f1f1;
+}
+table th, table td {
+    padding: 0.9rem .5rem !important;
+}
+.action-btn {
+    margin-right: 8px;
+    min-width: 65px;
+}
+.action-btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.details-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.details-row h5, .details-row p {
+    margin: 0px;
+}
+.details-row h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    min-width: 140px;
+}
+.details-row p {
+    font-size: 15.8px;
+}
+.link-item {
+    text-decoration: underline;
+    cursor: pointer;
+}
